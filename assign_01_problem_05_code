@@ -1,0 +1,21 @@
+//mahinour ashraf mohamed
+//20216495
+package prob05;
+import java.util.Scanner;
+public class Prob05 {
+
+    public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        int x,y,sum,sub,multi;
+        System.out.println("enter two numbers");
+   x= input.nextInt();
+   y= input.nextInt();
+ sum = x + y;
+ sub = x - y;
+  multi = x * y;
+  System.out.println(x+"+"+y+"="+sum);
+    System.out.println(x+"-"+y+"="+sub);
+      System.out.println(x+"*"+y+"="+multi);
+    }
+    
+}

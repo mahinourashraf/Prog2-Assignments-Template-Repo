@@ -1,0 +1,25 @@
+//Mahinour Ashraf Mohamed
+//20216495
+package problem3;
+import java.util.Scanner;
+public class Problem3 {
+public static void main(String[] args) {
+ Scanner input= new Scanner(System.in);
+int x;
+float y;
+char ch;
+double d;
+long z;
+System.out.println("enter letters and numbers");
+x= input.nextInt();
+y= input.nextFloat();
+ch= input.next().charAt(0);
+d= input.nextDouble();
+z= input.nextLong();
+System.out.println(x);
+  System.out.println(y);
+   System.out.println(ch);
+    System.out.println(d);
+     System.out.println(z);
+    } 
+}
